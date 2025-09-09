@@ -1,0 +1,79 @@
+{
+  "id": 25,
+  "name": "pikachu",
+  "types": [
+    "electric"
+  ],
+  "base_stats": {
+    "hp": 35,
+    "attack": 55,
+    "defense": 40,
+    "special_attack": 50,
+    "special_defense": 50,
+    "speed": 90
+  },
+  "abilities": [
+    "static",
+    "lightning-rod"
+  ],
+  "moves": [
+    {
+      "name": "mega-punch",
+      "type": "normal",
+      "power": 80,
+      "accuracy": 85,
+      "pp": 20,
+      "damage_class": "physical",
+      "short_effect": "Inflicts regular damage with no additional effect.",
+      "move_resource_uri": "/resources/move/mega-punch"
+    },
+    {
+      "name": "pay-day",
+      "type": "normal",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 20,
+      "damage_class": "physical",
+      "short_effect": "Scatters money on the ground worth five times the user\u2019s level.",
+      "move_resource_uri": "/resources/move/pay-day"
+    },
+    {
+      "name": "thunder-punch",
+      "type": "electric",
+      "power": 75,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "short_effect": "Has a 10% chance to paralyze the target.",
+      "move_resource_uri": "/resources/move/thunder-punch"
+    },
+    {
+      "name": "slam",
+      "type": "normal",
+      "power": 80,
+      "accuracy": 75,
+      "pp": 20,
+      "damage_class": "physical",
+      "short_effect": "Inflicts regular damage with no additional effect.",
+      "move_resource_uri": "/resources/move/slam"
+    },
+    {
+      "name": "double-kick",
+      "type": "fighting",
+      "power": 30,
+      "accuracy": 100,
+      "pp": 30,
+      "damage_class": "physical",
+      "short_effect": "Hits twice in one turn.",
+      "move_resource_uri": "/resources/move/double-kick"
+    }
+  ],
+  "evolution_chain": [
+    "pichu",
+    "pikachu",
+    "raichu"
+  ],
+  "height": 4,
+  "weight": 60,
+  "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png"
+}

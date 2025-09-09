@@ -1,0 +1,86 @@
+{
+  "id": 133,
+  "name": "eevee",
+  "types": [
+    "normal"
+  ],
+  "base_stats": {
+    "hp": 55,
+    "attack": 55,
+    "defense": 50,
+    "special_attack": 45,
+    "special_defense": 65,
+    "speed": 55
+  },
+  "abilities": [
+    "run-away",
+    "adaptability",
+    "anticipation"
+  ],
+  "moves": [
+    {
+      "name": "pay-day",
+      "type": "normal",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 20,
+      "damage_class": "physical",
+      "short_effect": "Scatters money on the ground worth five times the user\u2019s level.",
+      "move_resource_uri": "/resources/move/pay-day"
+    },
+    {
+      "name": "double-kick",
+      "type": "fighting",
+      "power": 30,
+      "accuracy": 100,
+      "pp": 30,
+      "damage_class": "physical",
+      "short_effect": "Hits twice in one turn.",
+      "move_resource_uri": "/resources/move/double-kick"
+    },
+    {
+      "name": "sand-attack",
+      "type": "ground",
+      "power": null,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "status",
+      "short_effect": "Lowers the target\u2019s accuracy by one stage.",
+      "move_resource_uri": "/resources/move/sand-attack"
+    },
+    {
+      "name": "headbutt",
+      "type": "normal",
+      "power": 70,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "short_effect": "Has a 30% chance to make the target flinch.",
+      "move_resource_uri": "/resources/move/headbutt"
+    },
+    {
+      "name": "tackle",
+      "type": "normal",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 35,
+      "damage_class": "physical",
+      "short_effect": "Inflicts regular damage with no additional effect.",
+      "move_resource_uri": "/resources/move/tackle"
+    }
+  ],
+  "evolution_chain": [
+    "eevee",
+    "vaporeon",
+    "jolteon",
+    "flareon",
+    "espeon",
+    "umbreon",
+    "leafeon",
+    "glaceon",
+    "sylveon"
+  ],
+  "height": 3,
+  "weight": 65,
+  "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png"
+}

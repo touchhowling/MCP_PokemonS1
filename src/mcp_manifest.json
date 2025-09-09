@@ -1,0 +1,28 @@
+{
+  "name": "pokemon-data",
+  "version": "0.1.0",
+  "description": "MCP server exposing Pokemon data from PokéAPI with caching.",
+  "resources": [
+    {
+      "name": "pokemon",
+      "endpoint": "/resources/pokemon/{name}",
+      "description": "Fetch normalized Pokemon data including stats, types, abilities, moves, and evolution chain."
+    },
+    {
+      "name": "move",
+      "endpoint": "/resources/move/{name}",
+      "description": "Fetch detailed move info including type, power, accuracy, and effect."
+    },
+    {
+      "name": "pokemon-search",
+      "endpoint": "/resources/pokemon?search={query}",
+      "description": "Search Pokemon by substring."
+    },
+    {
+    "name": "battle-simulator",
+    "endpoint": "/tools/battle",
+    "description": "Simulates a Pokemon battle between two Pokémon, with type effectiveness, damage calculation, and status effects."
+    }
+
+  ]
+}
