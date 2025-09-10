@@ -26,7 +26,7 @@ Built with **FastAPI**, **Pydantic**, and **Docker**, this project demonstrates 
 
 ## 🗂️ Project Structure
 
-\`\`\`
+```text
 mcp-pokemon-server/
 ├─ src/
 │  ├─ server.py            # FastAPI entrypoint
@@ -39,7 +39,7 @@ mcp-pokemon-server/
 ├─ Dockerfile
 ├─ .dockerignore
 └─ README.md
-\`\`\`
+```
 
 ---
 
