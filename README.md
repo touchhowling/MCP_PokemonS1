@@ -9,7 +9,7 @@ Built with **FastAPI**, **Pydantic**, and **Docker**, this project demonstrates 
 
 ### 📊 Pokémon Data Endpoints
 - `GET /resources/pokemon/{name}` → Fetch normalized Pokémon data (stats, types, abilities, moves, evolution chain, sprite)
-- `GET /resources/move/{name}` → Get detailed move info (type, power, accuracy, effect)
+- `GET /resources/move/{id}` → Get detailed move info (type, power, accuracy, effect)
 - `GET /resources/pokemon?search={query}` → Search Pokémon by substring  
   - Uses **local cache** if available  
   - Falls back to **PokéAPI** if not cached  
