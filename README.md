@@ -74,7 +74,7 @@ curl http://127.0.0.1:8000/resources/pokemon/pikachu
 
 ### Fetch a Move
 \`\`\`bash
-curl http://127.0.0.1:8000/resources/move/thunderbolt
+curl http://127.0.0.1:8000/resources/move/25
 \`\`\`
 
 ### Search Pokémon
