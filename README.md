@@ -46,16 +46,16 @@ mcp-pokemon-server/
 ## 🚀 Getting Started
 
 ### 1. Clone & Install
-\`\`\`bash
+```text
 git clone https://github.com/yourusername/mcp-pokemon-server.git
 cd mcp-pokemon-server
 pip install -r requirements.txt
-\`\`\`
+```
 
 ### 2. Run Server
-\`\`\`bash
+```text
 uvicorn src.server:app --reload
-\`\`\`
+
 
 Server runs at:  
 👉 http://127.0.0.1:8000  
@@ -63,34 +63,34 @@ Server runs at:
 Swagger UI docs at:  
 👉 http://127.0.0.1:8000/docs  
 
----
+```
 
 ## 🔎 Usage Examples
 
 ### Fetch a Pokémon
-\`\`\`bash
+```text
 curl http://127.0.0.1:8000/resources/pokemon/pikachu
-\`\`\`
+```
 
 ### Fetch a Move
-\`\`\`bash
+```text
 curl http://127.0.0.1:8000/resources/move/25
-\`\`\`
+```
 
 ### Search Pokémon
-\`\`\`bash
+```text
 curl "http://127.0.0.1:8000/resources/pokemon?search=char"
-\`\`\`
+```
 
 ### Simulate a Battle
-\`\`\`bash
+```text
 curl -X POST http://127.0.0.1:8000/tools/battle \
   -H "Content-Type: application/json" \
   -d '{"pokemon1":"charizard","pokemon2":"blastoise","level":50,"deterministic":true}'
-\`\`\`
+```
 
 Response (simplified):
-\`\`\`json
+```json
 {
   "winner": "blastoise",
   "log": [
@@ -98,7 +98,7 @@ Response (simplified):
     {"turn":1,"actor":"blastoise","move":"hydro-pump","damage":65,"target":"charizard","hp_after":0,"action":"faint"}
   ]
 }
-\`\`\`
+```
 
 ---
 
@@ -107,7 +107,7 @@ Response (simplified):
 Visit http://127.0.0.1:8000/manifest  
 
 Example:
-\`\`\`json
+```json
 {
   "name": "pokemon-data",
   "version": "0.1.0",
@@ -121,16 +121,16 @@ Example:
     {"name":"battle-simulator","endpoint":"/tools/battle"}
   ]
 }
-\`\`\`
+```
 
 ---
 
 ## 🧪 Testing
 
 Run tests with:
-\`\`\`bash
+```text
 pytest -v
-\`\`\`
+```
 
 Covers:
 - Models
